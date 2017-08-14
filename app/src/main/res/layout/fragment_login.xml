@@ -58,11 +58,11 @@
 
     <TextView
         android:id="@+id/tv_register"
-        android:layout_marginTop="20dp"
-        android:textColor="@color/colorAccent"
-        android:text="Not Registered ? Register Now !"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Not Registered ? Register Now !"
+        android:textColor="@android:color/holo_blue_dark" />
 
     <ProgressBar
         style="@style/Base.Widget.AppCompat.ProgressBar"
